@@ -7,7 +7,7 @@ const routes: RouteConfig[] = [
   {
     path: '/',
     name: 'Home',
-    component: () => import('@views/dashboard/index.vue'),
+    component: () => import('../views/dashboard/index.vue'),
   },
   {
     path: '/login',
@@ -15,7 +15,7 @@ const routes: RouteConfig[] = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "login" */ '@/views/login/index.vue'),
+    component: () => import(/* webpackChunkName: "login" */ '../views/login/index.vue'),
   },
 ];
 
