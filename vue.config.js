@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
     pluginOptions: {
         'style-resources-loader': {
@@ -7,5 +9,5 @@ module.exports = {
                 path.resolve(__dirname, 'src/styles/mixins.scss')
             ]
         }
-    },
+    }
 }
